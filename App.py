@@ -1,19 +1,4 @@
 import streamlit as st
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-image: url("Fundo.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 
 # ==============================
 # CONFIGURAÇÃO DA PÁGINA
@@ -104,5 +89,6 @@ with col3:
     st.write(f"📆 Retorno mensal sobre investimento: **{retorno_mensal_sobre_investimento:.2f}%/mês**")
     st.write(f"📊 Retorno sobre custo total: **{retorno_sobre_custo_total:.2f}%**")
     st.write(f"📆 Retorno mensal sobre custo total: **{retorno_mensal_sobre_custo_total:.2f}%/mês**")
+
 
 
