@@ -1,11 +1,5 @@
 import streamlit as st
 
-st.title("Teste Interativo 🧪")
-
-if st.button("Clique aqui"):
-    st.success("Você clicou no botão! 🎉")
-
-
 # ==============================
 # CONFIGURAÇÃO DA PÁGINA
 # ==============================
@@ -95,6 +89,7 @@ with col3:
     st.write(f"📆 Retorno mensal sobre investimento: **{retorno_mensal_sobre_investimento:.2f}%/mês**")
     st.write(f"📊 Retorno sobre custo total: **{retorno_sobre_custo_total:.2f}%**")
     st.write(f"📆 Retorno mensal sobre custo total: **{retorno_mensal_sobre_custo_total:.2f}%/mês**")
+
 
 
 
